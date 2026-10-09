@@ -55,6 +55,19 @@ npm run build
    - Curseur de volume (0 à 100%).
    - Bascule Mute / Unmute avec arrêt immédiat des boucles.
    - Bouton d'arrêt d'urgence (`ui.stopAll()`).
+---
+
+## 🧠 Skill Agent Antigravity (`ui-sound-design`)
+
+Ce dépôt inclut un **Skill Antigravity** complet et réutilisable dans [`skills/ui-sound-design/`](./skills/ui-sound-design/) :
+
+* **`SKILL.md`** : Guide complet pour les agents d'IA (règles d'or anti-fatigue, mapping d'événements réels, gestion du cycle de vie des loops, déverrouillage Web Audio, accessibilité).
+* **`references/cues-reference.md`** : Répertoire complet des 78 cues réparties sur 13 catégories.
+* **`references/packs-reference.md`** : Guide des 12 univers sonores et critères de choix selon l'ambiance et la cible produit.
+* **`examples/react-hook.ts`** : Implémentation React prête à l'emploi (`SoundProvider` & `useSoundEffect`) avec persistance et nettoyage de loops.
+* **`examples/declarative-html.html`** : Exemple de binding déclaratif avec `bindUISFX`.
+
+Le skill a également été déployé dans votre configuration globale (`~/.gemini/config/skills/ui-sound-design/`) afin d'être utilisable automatiquement par l'agent dans tous vos autres projets.
 
 ---
 
@@ -62,3 +75,4 @@ npm run build
 
 - **Code** : Licence MIT
 - **Fichiers audio & sound design** : Creative Commons Zero (CC0 1.0 Universal - Domaine Public)
+
